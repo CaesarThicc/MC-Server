@@ -1,0 +1,931 @@
+[01Feb2023 21:17:42.145] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.2.0, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, -nogui]
+[01Feb2023 21:17:42.150] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.6 by Oracle Corporation
+[01Feb2023 21:17:42.463] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Griffin/Desktop/CHAD%20MODPACK%20SERVER/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[01Feb2023 21:17:43.857] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Griffin\Desktop\CHAD MODPACK SERVER\libraries\net\minecraftforge\fmlcore\1.18.2-40.2.0\fmlcore-1.18.2-40.2.0.jar is missing mods.toml file
+[01Feb2023 21:17:43.865] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Griffin\Desktop\CHAD MODPACK SERVER\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.2.0\javafmllanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[01Feb2023 21:17:43.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Griffin\Desktop\CHAD MODPACK SERVER\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.2.0\lowcodelanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[01Feb2023 21:17:43.883] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Griffin\Desktop\CHAD MODPACK SERVER\libraries\net\minecraftforge\mclanguage\1.18.2-40.2.0\mclanguage-1.18.2-40.2.0.jar is missing mods.toml file
+[01Feb2023 21:17:44.065] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[01Feb2023 21:17:48.747] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Feb2023 21:17:48.986] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.core.mixins.MixinConnector]
+[01Feb2023 21:17:48.987] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [shetiphian.endertanks.mixins.MixinConnector]
+[01Feb2023 21:17:48.988] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.miningdimension.mixin.MixinConnector]
+[01Feb2023 21:17:48.992] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [-nogui]
+[01Feb2023 21:17:49.001] [main/WARN] [mixin/]: Reference map 'createdeco.refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Feb2023 21:17:49.026] [main/WARN] [mixin/]: Reference map 'createfa.refmap.json' for createfa.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Feb2023 21:17:49.149] [main/WARN] [mixin/]: Reference map 'steampowered.refmap.json' for extendedflywheels.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Feb2023 21:17:49.233] [main/WARN] [mixin/]: Reference map 'bloodmagic.refmap.json' for bloodmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Feb2023 21:17:49.270] [main/WARN] [mixin/]: Reference map 'bloodsmeltery.refmap.json' for bloodsmeltery.mixin.json could not be read. If this is a development environment you can ignore this message
+[01Feb2023 21:18:01.198] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `merequester` for name `requester`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.207] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `inscriber`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.209] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `wireless_access_point`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.210] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `charger`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.211] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `security_station`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.214] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `quantum_ring`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.218] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `spatial_pylon`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.220] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `spatial_io_port`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.222] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `spatial_anchor`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.224] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `cable_bus`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.226] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `controller`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.229] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `drive`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.232] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `chest`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.234] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `interface`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.236] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `cell_workbench`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.239] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `io_port`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.241] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `condenser`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.242] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `energy_acceptor`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.243] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `vibration_chamber`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.245] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `quartz_growth_accelerator`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.246] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `energy_cell`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.247] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `dense_energy_cell`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.249] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `creative_energy_cell`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.251] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `crafting_unit`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.251] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `crafting_storage`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.252] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `crafting_monitor`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.253] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `pattern_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.256] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `molecular_assembler`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.257] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `light_detector`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.259] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `paint`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.274] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `sky_chest`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.275] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `sky_compass`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.280] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `sky_tank`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.285] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `debug_item_gen`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.293] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `debug_chunk_loader`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.300] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `debug_phantom_node`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.303] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `debug_cube_gen`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.305] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `ae2` for name `debug_energy_gen`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:01.990] [modloading-worker-0/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Items registered.
+[01Feb2023 21:18:02.000] [modloading-worker-0/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Blocks registered.
+[01Feb2023 21:18:02.033] [modloading-worker-0/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Global loot modifiers registered.
+[01Feb2023 21:18:02.111] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.114] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.120] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.122] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.123] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.124] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[01Feb2023 21:18:02.257] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for industrialforegoing
+[01Feb2023 21:18:02.296] [modloading-worker-0/INFO] [PluginManager/]: Found FeaturePluginInstance for class CuriosPlugin for plugin curios
+[01Feb2023 21:18:02.302] [modloading-worker-0/INFO] [PluginManager/]: Constructed class CuriosPlugin for plugin curios for mod industrialforegoing
+[01Feb2023 21:18:02.305] [modloading-worker-0/INFO] [PluginManager/]: Executing phase CONSTRUCTION for plugin class CuriosPlugin
+[01Feb2023 21:18:02.349] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:02.378] [modloading-worker-0/INFO] [PluginManager/]: Executing phase PRE_INIT for plugin class CuriosPlugin
+[01Feb2023 21:18:02.414] [modloading-worker-0/INFO] [me.dinnerbeef.compressium.Compressium/]: Loading compressible blocks from data store config/compressiumblocks.json
+[01Feb2023 21:18:02.602] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:03.730] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Feb2023 21:18:04.030] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id agape_space:rocketship_input_packet
+[01Feb2023 21:18:04.059] [modloading-worker-0/INFO] [PluginManager/]: Executing phase INIT for plugin class CuriosPlugin
+[01Feb2023 21:18:04.049] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[01Feb2023 21:18:04.257] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[01Feb2023 21:18:04.305] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[01Feb2023 21:18:04.330] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[01Feb2023 21:18:04.556] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.agape_space.vehicles.CloudShuttle from class net.agape_space.vehicles.SpaceVehicle
+[01Feb2023 21:18:04.570] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[01Feb2023 21:18:04.624] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id agape_space:hoverbike_input_packet
+[01Feb2023 21:18:04.637] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[01Feb2023 21:18:04.647] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id agape_space:mmu_input_packet
+[01Feb2023 21:18:04.661] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id agape_space:cloud_shuttle_input_packet
+[01Feb2023 21:18:04.673] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id agape_space:submarine_input_packet
+[01Feb2023 21:18:04.693] [modloading-worker-0/WARN] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Config field without expected type, will not validate list content (merchantNames in net.blay09.mods.farmingforblockheads.FarmingForBlockheadsConfigData)
+[01Feb2023 21:18:05.179] [modloading-worker-0/INFO] [PluginManager/]: Executing phase POST_INIT for plugin class CuriosPlugin
+[01Feb2023 21:18:05.345] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[01Feb2023 21:18:05.390] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[01Feb2023 21:18:05.416] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.0, for MC 1.18.2 with MCP 20220404.173914
+[01Feb2023 21:18:05.416] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.0 Initialized
+[01Feb2023 21:18:05.757] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[01Feb2023 21:18:05.799] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[01Feb2023 21:18:05.855] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[01Feb2023 21:18:05.865] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[01Feb2023 21:18:08.471] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[01Feb2023 21:18:08.546] [modloading-worker-0/INFO] [PluginManager/]: Scanning classes for titanium
+[01Feb2023 21:18:08.586] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagradditions.lib.ModCorePlugin
+[01Feb2023 21:18:09.083] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ae2wtlib:cycle_terminal
+[01Feb2023 21:18:09.111] [modloading-worker-0/ERROR] [me.ichun.mods.ding.common.Ding/]: You are loading Ding on a server. Ding is a client only mod!
+[01Feb2023 21:18:09.279] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:09.465] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 2 RS API injection points
+[01Feb2023 21:18:09.465] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in dev.smolinacadena.refinedcooking.RefinedCooking RSAPI
+[01Feb2023 21:18:09.486] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[01Feb2023 21:18:09.501] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:09.591] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:10.691] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:10.889] [modloading-worker-0/INFO] [com.tterrag.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[01Feb2023 21:18:11.194] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Tinkers Construct.
+[01Feb2023 21:18:11.204] [modloading-worker-0/INFO] [twilightforest/]: Skipped compatibility for mod undergarden.
+[01Feb2023 21:18:11.269] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Immersive Engineering.
+[01Feb2023 21:18:11.270] [modloading-worker-0/INFO] [twilightforest/]: Loaded compatibility for mod Curios.
+[01Feb2023 21:18:11.340] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[01Feb2023 21:18:11.401] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
+[01Feb2023 21:18:11.428] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[01Feb2023 21:18:12.557] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[01Feb2023 21:18:12.608] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
+[01Feb2023 21:18:12.613] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[01Feb2023 21:18:12.693] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
+[01Feb2023 21:18:12.700] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[01Feb2023 21:18:12.706] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
+[01Feb2023 21:18:12.745] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[01Feb2023 21:18:12.748] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[01Feb2023 21:18:12.785] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[01Feb2023 21:18:12.791] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[01Feb2023 21:18:12.793] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
+[01Feb2023 21:18:12.877] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.platform.plugin.ForgePluginManager/]: Found and loaded ChiselsAndBits plugin: jei
+[01Feb2023 21:18:12.882] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.integration.jei.JEICompatConfiguration/]: Loaded JEI Compatibility configuration
+[01Feb2023 21:18:18.759] [main/WARN] [dev.architectury.registry.registries.forge.RegistriesImpl/]: Registry entry listened Registry Entry [minecraft:block / createchunkloading:chunk_loader] was not realized!
+[01Feb2023 21:18:24.926] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `merequester` for name `requester`, expected `ae2`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:27.694] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `shulker_shell`, expected `supplementaries`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:27.913] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `merequester` for name `requester`, expected `ae2`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:27.916] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `merequester` for name `requester_terminal`, expected `ae2`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:28.430] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_aluminum] has been registered twice for the same name alltheores:dirty_aluminum.
+[01Feb2023 21:18:28.431] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_nickel] has been registered twice for the same name alltheores:dirty_nickel.
+[01Feb2023 21:18:28.433] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_platinum] has been registered twice for the same name alltheores:dirty_platinum.
+[01Feb2023 21:18:28.434] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_silver] has been registered twice for the same name alltheores:dirty_silver.
+[01Feb2023 21:18:28.435] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_tin] has been registered twice for the same name alltheores:dirty_tin.
+[01Feb2023 21:18:28.435] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:dirty_zinc] has been registered twice for the same name alltheores:dirty_zinc.
+[01Feb2023 21:18:28.436] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_aluminum] has been registered twice for the same name alltheores:clean_aluminum.
+[01Feb2023 21:18:28.437] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_nickel] has been registered twice for the same name alltheores:clean_nickel.
+[01Feb2023 21:18:28.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_platinum] has been registered twice for the same name alltheores:clean_platinum.
+[01Feb2023 21:18:28.438] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_silver] has been registered twice for the same name alltheores:clean_silver.
+[01Feb2023 21:18:28.439] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_tin] has been registered twice for the same name alltheores:clean_tin.
+[01Feb2023 21:18:28.440] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry mekanism:slurry: The object [Slurry: alltheores:clean_zinc] has been registered twice for the same name alltheores:clean_zinc.
+[01Feb2023 21:18:28.699] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[01Feb2023 21:18:29.104] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:29.105] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[01Feb2023 21:18:29.769] [main/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
+[01Feb2023 21:18:29.961] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_feature / productivebees:nether_fortress_nest_feature]' to registry
+[01Feb2023 21:18:29.962] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_feature / productivebees:crimson_fungus_bees]' to registry
+[01Feb2023 21:18:29.963] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/configured_feature / productivebees:warped_fungus_bees]' to registry
+[01Feb2023 21:18:30.361] [main/INFO] [alltheores/]: AllTheOres: loading config
+[01Feb2023 21:18:30.400] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.401] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.403] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.408] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.411] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.411] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.414] [main/INFO] [PluginManager/]: Executing phase CONFIG_LOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.414] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.417] [Thread-0/INFO] [PluginManager/]: Executing phase CONFIG_RELOAD for plugin class CuriosPlugin
+[01Feb2023 21:18:30.601] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Griffin\Desktop\CHAD MODPACK SERVER\config\bloodsmeltery-common.toml is not correct. Correcting
+[01Feb2023 21:18:30.605] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modifiers.bloodstained.bloodstainedLPMultiplier was corrected from 0.7 to its default, 0.7. 
+[01Feb2023 21:18:30.605] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modifiers.exsanguinate.exsanguinateLPPercent was corrected from 0.75 to its default, 0.75. 
+[01Feb2023 21:18:30.606] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modifiers.exsanguinate.exsanguinateLPMultiplier was corrected from 1.25 to its default, 1.25. 
+[01Feb2023 21:18:30.607] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key modifiers.exsanguinate.exsanguinateLPRate was corrected from 10.0 to its default, 10.0. 
+[01Feb2023 21:18:30.635] [modloading-worker-0/INFO] [PluginManager/]: Executing phase COMMON_SETUP for plugin class CuriosPlugin
+[01Feb2023 21:18:30.647] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: ConstructionWand says hello - may the odds be ever in your favor.
+[01Feb2023 21:18:30.649] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[01Feb2023 21:18:30.653] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[01Feb2023 21:18:30.677] [modloading-worker-0/INFO] [thetadev.constructionwand.ConstructionWand/]: Botania integration added
+[01Feb2023 21:18:30.690] [modloading-worker-0/INFO] [cy.jdkdigital.productivebees.ProductiveBees/]: Adding modded beehives to vanilla beehive POI
+[01Feb2023 21:18:30.722] [modloading-worker-0/INFO] [mythicbotany/]: Loading MythicBotany
+[01Feb2023 21:18:30.723] [modloading-worker-0/INFO] [Mekanism/]: Version 10.2.5 initializing...
+[01Feb2023 21:18:30.742] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: CraftingMapper, with priority 0
+[01Feb2023 21:18:30.748] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: APICustomEMCMapper, with priority 0
+[01Feb2023 21:18:30.751] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: RawOresBlacklistMapper, with priority 0
+[01Feb2023 21:18:30.755] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: BrewingMapper, with priority 0
+[01Feb2023 21:18:30.759] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: TippedArrowMapper, with priority 0
+[01Feb2023 21:18:30.759] [modloading-worker-0/INFO] [createplus/]: Create Plus Setup
+[01Feb2023 21:18:30.761] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: OresBlacklistMapper, with priority 0
+[01Feb2023 21:18:30.764] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: WeatheredCopperMapper, with priority 0
+[01Feb2023 21:18:30.768] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[01Feb2023 21:18:30.774] [modloading-worker-0/WARN] [patchouli/]: Book botania:lexicon is a resource-pack-based book. Extension books are unnecessary for resource-pack-based books. You should simply create a resource pack with the extra content you want to add or override.
+[01Feb2023 21:18:30.788] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: CustomConversionMapper, with priority 0
+[01Feb2023 21:18:30.792] [modloading-worker-0/INFO] [projecte/]: Found and loaded EMC mapper: CustomEMCMapper, with priority 0
+[01Feb2023 21:18:30.819] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: Smithing, with priority 0
+[01Feb2023 21:18:30.823] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: FallbackRecipeType, with priority -2147483648
+[01Feb2023 21:18:30.826] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: VanillaRecipeTypes, with priority 0
+[01Feb2023 21:18:30.830] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekItemStackToGas, with priority 0
+[01Feb2023 21:18:30.837] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekCombiner, with priority 0
+[01Feb2023 21:18:30.840] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekElectrolysis, with priority 0
+[01Feb2023 21:18:30.845] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekItemStackToInfuseType, with priority 0
+[01Feb2023 21:18:30.849] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekChemicalInfuser, with priority 0
+[01Feb2023 21:18:30.853] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekRotary, with priority 0
+[01Feb2023 21:18:30.857] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekGasToGas, with priority 0
+[01Feb2023 21:18:30.860] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekDissolution, with priority 0
+[01Feb2023 21:18:30.862] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekFluidSlurryToSlurry, with priority 0
+[01Feb2023 21:18:30.864] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekMetallurgicInfuser, with priority 0
+[01Feb2023 21:18:30.869] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekItemStackGasToItemStack, with priority 0
+[01Feb2023 21:18:30.872] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekChemicalCrystallizer, with priority 0
+[01Feb2023 21:18:30.874] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekPressurizedReaction, with priority 0
+[01Feb2023 21:18:30.876] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekItemStackToPigment, with priority 0
+[01Feb2023 21:18:30.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aiotbotania] Starting version check at https://raw.githubusercontent.com/MelanX/mod-updatechecker-files/master/aiotbotania.json
+[01Feb2023 21:18:30.881] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekSawmill, with priority 0
+[01Feb2023 21:18:30.884] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekItemStackToItemStack, with priority 0
+[01Feb2023 21:18:30.886] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekFluidToFluid, with priority 0
+[01Feb2023 21:18:30.888] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekPaintingMachine, with priority 0
+[01Feb2023 21:18:30.892] [modloading-worker-0/INFO] [projecte/]: Found and loaded RecipeType Mapper: MekPigmentMixer, with priority 0
+[01Feb2023 21:18:30.909] [modloading-worker-0/INFO] [projecte/]: Found and loaded NBT Processor: EnchantmentProcessor, with priority 0
+[01Feb2023 21:18:30.912] [modloading-worker-0/INFO] [projecte/]: Found and loaded NBT Processor: DamageProcessor, with priority 2147483647
+[01Feb2023 21:18:30.914] [modloading-worker-0/INFO] [projecte/]: Found and loaded NBT Processor: StoredEMCProcessor, with priority 0
+[01Feb2023 21:18:30.918] [modloading-worker-0/INFO] [projecte/]: Found and loaded NBT Processor: MekanismContentsProcessor, with priority 0
+[01Feb2023 21:18:30.979] [modloading-worker-0/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[01Feb2023 21:18:30.979] [modloading-worker-0/INFO] [Mekanism/]: Mod loaded.
+[01Feb2023 21:18:31.027] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01Feb2023 21:18:31.027] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[01Feb2023 21:18:31.029] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_common to index 1 for type OVERWORLD
+[01Feb2023 21:18:31.030] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 2 for type OVERWORLD
+[01Feb2023 21:18:31.031] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[01Feb2023 21:18:31.032] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[01Feb2023 21:18:31.063] [main/INFO] [journeymap/]: Initializing Packet Registries
+[01Feb2023 21:18:31.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aiotbotania] Found status: BETA Current: 1.18.2-2.1.2 Target: null
+[01Feb2023 21:18:31.131] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.18.2
+[01Feb2023 21:18:31.215] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Finished mod setup in: 109 ms
+[01Feb2023 21:18:31.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 9.0+22 Target: 9.0+22
+[01Feb2023 21:18:31.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.18.2
+[01Feb2023 21:18:31.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 13.2.52 Target: 13.2.52
+[01Feb2023 21:18:31.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Starting version check at https://updates.blamejared.com/get?n=darkutils&gv=1.18.2
+[01Feb2023 21:18:31.861] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[01Feb2023 21:18:31.864] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[01Feb2023 21:18:31.863] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.877] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.886] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.890] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.893] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.895] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.898] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.906] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [darkutils] Found status: BETA Current: 10.1.6 Target: 10.1.6
+[01Feb2023 21:18:31.909] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[01Feb2023 21:18:31.910] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NoClassDefFoundError: mcp/mobius/waila/api/Accessor
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:375) ~[?:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: mcp.mobius.waila.api.Accessor
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:138) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 19 more
+[01Feb2023 21:18:31.913] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.923] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: Cannot invoke "String.indexOf(int)" because "p_135833_" is null
+	at net.minecraft.resources.ResourceLocation.m_135832_(ResourceLocation.java:64) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:42) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:43) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:18:31.927] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NoClassDefFoundError: mcp/mobius/waila/api/ui/IElement
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:375) ~[?:?]
+	at mcp.mobius.waila.plugin.PluginInfo.register(PluginInfo.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgePluginLoader.gatherPlugins(ForgePluginLoader.java:42) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.plugin.PluginLoader.loadPlugins(PluginLoader.java:18) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at mcp.mobius.waila.forge.ForgeWaila.loadComplete(ForgeWaila.java:41) ~[wthit-forge-4.13.6.jar%23174!/:4.13.6]
+	at net.minecraftforge.eventbus.ASMEventHandler_78_ForgeWaila_loadComplete_FMLLoadCompleteEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-5.0.3.jar%232!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[javafmllanguage-1.18.2-40.2.0.jar%23179!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[fmlcore-1.18.2-40.2.0.jar%23178!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+Caused by: java.lang.ClassNotFoundException: mcp.mobius.waila.api.ui.IElement
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:134) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:134) ~[securejarhandler-1.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 19 more
+[01Feb2023 21:18:31.930] [modloading-worker-0/ERROR] [WTHIT/]: [WTHIT] Error creating instance of plugin null
+java.lang.NullPointerException: null
+[01Feb2023 21:18:31.932] [modloading-worker-0/ERROR] [bloodmagic/]: MysticalAgriculture integration cancelled: unable to find a class: com.blakebr0.mysticalagriculture.api.crop.ICrop
+[01Feb2023 21:18:31.937] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Registering plugin waila:core at mcp.mobius.waila.forge.ForgePlugins.Core
+[01Feb2023 21:18:31.945] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Registering plugin waila:vanilla at mcp.mobius.waila.forge.ForgePlugins.Vanilla
+[01Feb2023 21:18:31.961] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Registering plugin minecraft:waystones at net.blay09.mods.waystones.compat.WailaProvider
+[01Feb2023 21:18:31.965] [modloading-worker-0/INFO] [WTHIT/]: [WTHIT] Plugin config reloaded
+[01Feb2023 21:18:32.182] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.1.1494 Target: null
+[01Feb2023 21:18:32.183] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[01Feb2023 21:18:33.507] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.18.2-1.0.1 Target: null
+[01Feb2023 21:18:33.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanytrees] Starting version check at https://updates.blamejared.com/get?n=botanytrees&gv=1.18.2
+[01Feb2023 21:18:33.662] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanytrees] Found status: BETA Current: 4.0.6 Target: 4.0.6
+[01Feb2023 21:18:33.662] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_dimension] Starting version check at https://maxhenkel.de/update/mining_dimension.json
+[01Feb2023 21:18:33.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_dimension] Found status: UP_TO_DATE Current: 1.18.2-1.0.0 Target: null
+[01Feb2023 21:18:33.945] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[01Feb2023 21:18:34.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[01Feb2023 21:18:34.093] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [productivebees] Starting version check at https://raw.githubusercontent.com/JDKDigital/productive-bees/dev-1.18/versions.json
+[01Feb2023 21:18:34.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [productivebees] Found status: BETA Current: 1.18.2-0.9.3.0 Target: null
+[01Feb2023 21:18:34.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Starting version check at https://www.olafkeijsers.net/fastleafdecay-update.json
+[01Feb2023 21:18:34.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Found status: UP_TO_DATE Current: 28 Target: null
+[01Feb2023 21:18:34.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.18.2
+[01Feb2023 21:18:35.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: UP_TO_DATE Current: 4.1.2.475 Target: null
+[01Feb2023 21:18:35.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Starting version check at https://raw.githubusercontent.com/Lothrazar/cyclic/trunk/1.18/update.json
+[01Feb2023 21:18:35.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Found status: BETA Current: 1.18.2-1.7.13 Target: 1.7.14
+[01Feb2023 21:18:35.603] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.18.2
+[01Feb2023 21:18:35.744] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 8.0.0+17 Target: 8.0.0+17
+[01Feb2023 21:18:35.745] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[01Feb2023 21:18:35.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.2 Target: null
+[01Feb2023 21:18:35.954] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Starting version check at https://assets.melanx.de/updates/libx.json
+[01Feb2023 21:18:36.242] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [libx] Found status: UP_TO_DATE Current: 1.18.2-3.2.18 Target: null
+[01Feb2023 21:18:36.243] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Starting version check at https://updates.blamejared.com/get?n=botanypots&gv=1.18.2
+[01Feb2023 21:18:36.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Found status: BETA Current: 8.0.24 Target: 8.0.24
+[01Feb2023 21:18:36.393] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[01Feb2023 21:18:36.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.6.2 Target: 1.6.2
+[01Feb2023 21:18:36.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderstorage] Starting version check at https://version-check.covers1624.net/check/?mod=EnderStorage&mc=1.18.2
+[01Feb2023 21:18:36.650] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enderstorage] Found status: UP_TO_DATE Current: 2.9.0.182 Target: null
+[01Feb2023 21:18:36.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Feb2023 21:18:36.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 40.2.0 Target: null
+[01Feb2023 21:18:36.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mythicbotany] Starting version check at https://assets.melanx.de/updates/mythicbotany.json
+[01Feb2023 21:18:36.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mythicbotany] Found status: UP_TO_DATE Current: 1.18.2-2.1.14 Target: null
+[01Feb2023 21:18:36.900] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[01Feb2023 21:18:37.208] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 9.1.2.32 Target: null
+[01Feb2023 21:18:37.209] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[01Feb2023 21:18:37.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 9.1.0.34 Target: null
+[01Feb2023 21:18:37.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_innovation.json
+[01Feb2023 21:18:37.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_innovation] Found status: AHEAD Current: 9.1.0.15 Target: null
+[01Feb2023 21:18:37.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_expansion.json
+[01Feb2023 21:18:37.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Found status: AHEAD Current: 9.1.0.18 Target: null
+[01Feb2023 21:18:37.554] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.18.2
+[01Feb2023 21:18:37.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 10.0.12 Target: 10.0.12
+[01Feb2023 21:18:37.701] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.18.x/update.json
+[01Feb2023 21:18:37.814] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [projecte] Found status: AHEAD Current: 1.0.1 Target: null
+[01Feb2023 21:18:37.815] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.18.2/changelog.json
+[01Feb2023 21:18:37.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.18.2-8.3.1-157 Target: null
+[01Feb2023 21:18:37.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[01Feb2023 21:18:38.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 9.0.0.37 Target: null
+[01Feb2023 21:18:38.076] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[01Feb2023 21:18:38.254] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: UP_TO_DATE Current: 0.6.8.a Target: null
+[01Feb2023 21:18:38.255] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_cultivation.json
+[01Feb2023 21:18:38.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_cultivation] Found status: AHEAD Current: 9.1.0.14 Target: null
+[01Feb2023 21:18:38.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pigpen] Starting version check at https://updates.blamejared.com/get?n=pigpen&gv=1.18.2
+[01Feb2023 21:18:38.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pigpen] Found status: BETA Current: 8.0.1 Target: 8.0.1
+[01Feb2023 21:18:38.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[01Feb2023 21:18:38.888] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.9.5 Target: null
+[01Feb2023 21:18:38.889] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bloodsmeltery] Starting version check at https://raw.githubusercontent.com/SmileycorpMC/Blood-Smeltery/1.18/update.json
+[01Feb2023 21:18:38.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bloodsmeltery] Found status: UP_TO_DATE Current: 1.1.5a Target: null
+[01Feb2023 21:18:43.180] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Feb2023 21:19:03.534] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Griffin/Desktop/CHAD%20MODPACK%20SERVER/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23177!/assets/.mcassetsroot' uses unexpected schema
+[01Feb2023 21:19:03.535] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Griffin/Desktop/CHAD%20MODPACK%20SERVER/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%23177!/data/.mcassetsroot' uses unexpected schema
+[01Feb2023 21:19:03.566] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack Supplementaries Generated Pack, loading it automatically
+[01Feb2023 21:19:03.635] [main/INFO] [net.mehvahdjukaar.supplementaries.Supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 55 ms
+[01Feb2023 21:19:10.401] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2023 21:19:10.403] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2023 21:19:10.408] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.410] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.411] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01Feb2023 21:19:10.415] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [ftbteams, info, server_id] and [ftbteams, info, team] with inputs: [server_id]
+[01Feb2023 21:19:10.416] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [ftbchunks, admin, view_loaded_chunks, reset] and [ftbchunks, admin, view_loaded_chunks, dimension] with inputs: [reset]
+[01Feb2023 21:19:10.420] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[01Feb2023 21:19:10.422] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[01Feb2023 21:19:10.424] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[01Feb2023 21:19:10.426] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[01Feb2023 21:19:10.429] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [projecte, showbag, color, target] and [projecte, showbag, color, uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.433] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.436] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.438] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, cart1] and [create, coupling, add, carts] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.440] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [create, coupling, add, carts] and [create, coupling, add, cart1] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:10.442] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01Feb2023 21:19:14.236] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:cactus_plants as it is missing following references: #forge:cactus_plants/barrelcactus (from pamhc2crops-1.18.2-1.0.5.jar), 
+	#forge:cactus_plants/nopales (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.241] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:leafyvegetables/bokchoy as it is missing following references: pamhc2crops:bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.270] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:salad_ingredients/bokchoy as it is missing following references: pamhc2crops:bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.271] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:salad_ingredients as it is missing following references: #forge:salad_ingredients/bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.276] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:vegetables/bokchoy as it is missing following references: pamhc2crops:bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.288] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:leafyvegetables as it is missing following references: #forge:leafyvegetables/bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:14.293] [Worker-Main-25/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:vegetables as it is missing following references: #forge:vegetables/bokchoy (from pamhc2crops-1.18.2-1.0.5.jar)
+[01Feb2023 21:19:19.736] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:squid_beak as it's serializer returned null
+[01Feb2023 21:19:19.887] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe biggerreactors:compat/mekanism/rotary/superheated_sodium
+com.google.gson.JsonSyntaxException: Invalid fluid type 'biggerreactors:superheated_sodium'
+	at mekanism.api.SerializerHelper.deserializeFluid(SerializerHelper.java:221) ~[Mekanism-1.18.2-10.2.5.465.jar%23127!/:10.2.5]
+	at mekanism.api.SerializerHelper.getFluidStack(SerializerHelper.java:124) ~[Mekanism-1.18.2-10.2.5.465.jar%23127!/:10.2.5]
+	at mekanism.common.recipe.serializer.RotaryRecipeSerializer.fromJson(RotaryRecipeSerializer.java:53) ~[Mekanism-1.18.2-10.2.5.465.jar%23127!/:10.2.5]
+	at mekanism.common.recipe.serializer.RotaryRecipeSerializer.m_6729_(RotaryRecipeSerializer.java:22) ~[Mekanism-1.18.2-10.2.5.465.jar%23127!/:10.2.5]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:19.918] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_factory:walnut_brownie_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'ecologics:walnut'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:276) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:275) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:143) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:68) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:156) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:22) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:19.923] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2crops:torch_cattail
+com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:276) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:275) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:143) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:96) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:81) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:77) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:19.969] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:zombie_heart as it's serializer returned null
+[01Feb2023 21:19:19.980] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:spiky_bomb as it's serializer returned null
+[01Feb2023 21:19:20.071] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tungsten as it's serializer returned null
+[01Feb2023 21:19:20.090] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_things_and_misc:schematic_chair
+com.google.gson.JsonSyntaxException: Unknown item 'create_things_and_misc:deleted_mod_element'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:155) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:181) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:270) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:294) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:285) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.095] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:magma_cream_recipe
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:slime'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:276) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:275) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:143) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:68) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:156) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:22) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.099] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:guardian_spike as it's serializer returned null
+[01Feb2023 21:19:20.144] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[01Feb2023 21:19:20.224] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe createfa:mixing/spaghetti
+com.google.gson.JsonSyntaxException: Unknown item 'createfa:uncooked_spaghetti'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:276) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:275) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:222) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:143) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:197) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:68) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:156) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:22) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.227] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/botanypots/crops/cabbages
+com.google.gson.JsonParseException: Expected member drops was not found.
+	at net.darkhax.bookshelf.api.serialization.ISerializer.fromJSONList(ISerializer.java:234) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:24) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:14) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.bookshelf.impl.data.recipes.WrappedRecipeSerializer.m_6729_(WrappedRecipeSerializer.java:23) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.285] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/bitumen as it's serializer returned null
+[01Feb2023 21:19:20.323] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/draconium as it's serializer returned null
+[01Feb2023 21:19:20.326] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/botanypots/crops/onions
+com.google.gson.JsonParseException: Expected member drops was not found.
+	at net.darkhax.bookshelf.api.serialization.ISerializer.fromJSONList(ISerializer.java:234) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:24) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:14) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.bookshelf.impl.data.recipes.WrappedRecipeSerializer.m_6729_(WrappedRecipeSerializer.java:23) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.339] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/bauxite as it's serializer returned null
+[01Feb2023 21:19:20.345] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/sheldonite as it's serializer returned null
+[01Feb2023 21:19:20.346] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/botanypots/crops/rice_crop
+com.google.gson.JsonParseException: Expected member drops was not found.
+	at net.darkhax.bookshelf.api.serialization.ISerializer.fromJSONList(ISerializer.java:234) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:24) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:14) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.bookshelf.impl.data.recipes.WrappedRecipeSerializer.m_6729_(WrappedRecipeSerializer.java:23) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.352] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/ores/sodalite as it's serializer returned null
+[01Feb2023 21:19:20.430] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:rib_bone as it's serializer returned null
+[01Feb2023 21:19:20.431] [Worker-Main-25/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/botanypots/crops/tomatoes
+com.google.gson.JsonParseException: Expected member drops was not found.
+	at net.darkhax.bookshelf.api.serialization.ISerializer.fromJSONList(ISerializer.java:234) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:24) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.botanypots.data.recipes.crop.BasicCropSerializer.fromJson(BasicCropSerializer.java:14) ~[BotanyPots-Forge-1.18.2-8.0.24.jar%2364!/:8.0.24]
+	at net.darkhax.bookshelf.impl.data.recipes.WrappedRecipeSerializer.m_6729_(WrappedRecipeSerializer.java:23) ~[Bookshelf-Forge-1.18.2-13.2.52.jar%2362!/:13.2.52]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) [?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[01Feb2023 21:19:20.455] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe industrialforegoing:laser_drill_ore/raw_materials/tetrahedrite as it's serializer returned null
+[01Feb2023 21:19:20.458] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe projecte:tome as it's serializer returned null
+[01Feb2023 21:19:20.459] [Worker-Main-25/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe reliquary:frozen_core as it's serializer returned null
+[01Feb2023 21:19:20.464] [main/WARN] [net.minecraft.server.Main/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Can't modify the empty stack.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:183) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:32) ~[fmlloader-1.18.2-40.2.0.jar%2317!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+Caused by: java.lang.IllegalStateException: Can't modify the empty stack.
+	at net.minecraftforge.fluids.FluidStack.setTag(FluidStack.java:201) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at com.simibubi.create.foundation.fluid.FluidHelper.deserializeFluidStack(FluidHelper.java:126) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.foundation.fluid.FluidIngredient$FluidStackIngredient.readInternal(FluidIngredient.java:180) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.foundation.fluid.FluidIngredient.deserialize(FluidIngredient.java:131) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.readFromJson(ProcessingRecipeSerializer.java:66) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.fromJson(ProcessingRecipeSerializer.java:156) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at com.simibubi.create.content.contraptions.processing.ProcessingRecipeSerializer.m_6729_(ProcessingRecipeSerializer.java:22) ~[create-1.18.2-0.5.0.i.jar%2381!/:0.5.0.i]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.18.2-40.2.0-universal.jar%23182!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68) ~[server-1.18.2-20220404.173914-srg.jar%23177!/:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
